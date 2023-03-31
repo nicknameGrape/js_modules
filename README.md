@@ -44,3 +44,10 @@ Usage:
 var myArray = [1, 2, 3, 4, 5];
 shuffle(myArray);
 ```
+
+## drawShapes.mjs
+javascript object with methods to draw various shapes using control points
+Usage:
+```
+drawShapes.drawTriangle(context, {x: 5, y: 0}, {x: 0, y: 10}, {x: 10, y: 10})
+```
