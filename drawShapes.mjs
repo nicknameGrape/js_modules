@@ -194,7 +194,7 @@ function drawCrescent(context, p1, p2, p3) {
 	context.fill();
 	context.restore();
 };
-var draw = {
+var drawShapes = {
 	"circle": drawCircle,
 	"ellipse": drawEllipse,
 	"rectangle": drawRectangle,
